@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste js</title>
+    <script>
+        function acendeFoto() {
+            document.getElementById("cr").src = "fotos/cr7 careca.png";
+        }
+        function apagaFoto () {
+            document.getElementById("cr").src = "fotos/cr7 careca blur.png"
+        }
+    </script>
+</head>
+<body>
+    <!-- cntl k + cntl c = comentar --> <!-- src ali de cima so pega se colocar em uma pasta e no cod ir o caminho da pasta tudo certinho-->
+    <h1>acende a foto</h1> 
+     <img src="fotos/cr7 careca blur.png" id="cr" onclick="acendeFoto()"> <!-- onmousemove ou onclick -->
+</body>
+</html>

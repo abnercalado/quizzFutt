@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+
+.top {
+    background-color: #115000;
+    display: flex;
+}
+
+#nome {
+    width: 30px;
+    height: 30px;
+    font-size: 65px;
+    color: white;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+    font-size: 32px;
+    margin: 25px;
+    padding-left: 680px;
+    list-style: none;
+}
+/* ESTILIZANDO O LINK DO MENU DO TOPO */
+nav#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(fotos/grama.jpg);
+}
+
+.perguntas {
+    background-color: white;
+}
+
+#perguntash1 {
+    font-size: 45px;
+}
+
+#campeaobr {
+    font-size: 30px;
+}
+
+#a {
+    font-size: 25px;
+}
+
+#b {
+    font-size: 25px;
+}
+
+#c {
+    font-size: 25px;
+}
+
+#d {
+    font-size: 25px;
+}
+

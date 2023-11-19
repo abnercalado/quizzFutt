@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizzFut</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" type="image/x-icon" href="logo/QF_-_LOGO_png-removebg.png">
+    <script>
+        function acendeFoto() {
+            document.getElementById("cr").src = "fotos/cr7 careca.png";
+        }
+        function apagaFoto () {
+            document.getElementById("cr").src = "fotos/cr7 careca blur.png"
+        }
+    </script>
+</head>
+<body>
+    
+    <div class="top">
+        <img src="logo/QF_-_LOGO_EDITAVEL_v4_page-0001-removebg-preview.png" alt="logogrande" width="100px" height="100px">
+        <b><h1 id="nome">QuizzFut</h1></b>
+        <nav id="menu">
+            <ul class="lista">
+            <b><li><a href="#">HOME</a></li></b>
+            <b><li><a href="#">ENTRAR</a></li></b>
+            <b><li><a href="#">CADASTRAR</a></li></b>
+        </nav>
+        </div>
+            <div class="perguntas">
+                <b><h1 id="perguntash1">TESTE SEU CONHECIMENTO FUTEBOLISTICO:</h1></b>
+                <b><p id="campeaobr">1°) Campeão Brasileiro de 2019-22:</p></b>
+                <p id="a"> A) Flamengo, Flamengo, Atlético-MG, Palmeiras</p>
+                <p id="b"> B) Corinthians, Flamengo, Palmeiras, Atlético-MG</p>
+                <p id="c"> C) Flamengo, Grêmio, Atlético-MG, Corinthians</p>
+                <p id="d"> D) Flamengo, Fluminense, Atlético-MG, Botafogo</p>
+
+                <b><p id="campeaobr">2°) Quem é este Jogador?</p></b>
+                <img src="fotos/leomar_jpg.png" alt="leomar" width="150px" height="200px">
+                <p id="a"> A) Rivaldo</p>
+                <p id="b"> B) Julio Baptista</p>
+                <p id="c"> C) Leomar</p>
+                <p id="d"> D) Cleberson</p>
+
+                <b><p id="campeaobr">3°) Quem é o jogador com mais assistências na história da Liga dos Campeões da UEFA?</p></b>
+                <img src="fotos/cr7 careca blur.png" alt="careca" width="150px" height="200px" id="cr" onclick="acendeFoto()"> <!-- onmousemove ou onclick -->
+                <p id="a"> A) Messi</p>
+                <p id="b"> B) Neymar</p>
+                <p id="c"> C) Xavi</p>
+                <p id="d"> D) Cristiano Ronaldo</p>
+            </div>
+</body>
+</html>

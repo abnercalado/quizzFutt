@@ -68,5 +68,6 @@ body {
         width: 100%;
         flex-direction: column;
         padding: 0px;
+        font-size: 100%;
     }
 }

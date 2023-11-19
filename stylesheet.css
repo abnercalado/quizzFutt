@@ -63,3 +63,10 @@ body {
     font-size: 25px;
 }
 
+@media screen and (max-width: 768px) {
+    .top, .perguntas, .lista {
+        width: 100%;
+        flex-direction: column;
+        padding: 0px;
+    }
+}

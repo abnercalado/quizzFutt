@@ -47,20 +47,12 @@ body {
     font-size: 30px;
 }
 
-#a {
-    font-size: 25px;
-}
-
-#b {
-    font-size: 25px;
-}
-
-#c {
-    font-size: 25px;
-}
-
-#d {
-    font-size: 25px;
+.answers-container {
+    text-size-adjust: 120px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
 }
 
 @media screen and (max-width: 768px) {
